@@ -1,6 +1,6 @@
 import {NavLink} from "react-router-dom";
 
-const NavBar = () => {
+const Menu = () => {
     return (
         <nav>
             <ul>
@@ -11,5 +11,5 @@ const NavBar = () => {
     )
 }
 
-export default NavBar
+export default Menu
 

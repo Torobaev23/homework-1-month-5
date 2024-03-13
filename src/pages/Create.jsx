@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-function AboutUsPage() {
+function Create() {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
 
@@ -37,4 +37,4 @@ function AboutUsPage() {
     );
 }
 
-export default AboutUsPage;
+export default Create;

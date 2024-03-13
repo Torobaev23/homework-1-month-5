@@ -1,8 +1,8 @@
 import {Routes, Route} from "react-router-dom";
 import './App.css'
 import MainPage from "./pages/MainPage.jsx";
-import AboutUsPage from "./pages/AboutUsPage.jsx";
-import Layout from "./components/Layout.jsx";
+import Create from "./pages/Create.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
 
@@ -10,9 +10,9 @@ function App() {
         <>
 
             <Routes>
-                <Route path='/' element={<Layout/>}>
+                <Route path='/' element={<Footer/>}>
                     <Route index element={<MainPage/>}/>
-                    <Route path='about' element={<AboutUsPage/>}/>
+                    <Route path='about' element={<Create/>}/>
 
                     <Route path='*' element={<h4>Ошибка 404: Страница не найдена</h4>}/>
                 </Route>

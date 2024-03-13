@@ -1,16 +1,16 @@
 import {Outlet} from "react-router-dom";
 
-import NavBar from "./NavBar.jsx";
+import Menu from "./Menu.jsx";
 
-const Layout = () => {
+const Footer = () => {
     return (
         <div>
-            <NavBar/>
+            <Menu/>
             <Outlet/>
             <footer>HOMEWORK-1</footer>
         </div>
     )
 }
 
-export default Layout
+export default Footer
 
